@@ -27,7 +27,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "성장하는 개발자 ICEMAN" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs            : true # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
 # 댓글 관련
@@ -110,7 +110,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
   bio              : "꾸준히 배우며 성장하는 개발자입니다. <br> Still Making this Tech Blog"
   location         : "Asan, Republic of Korea"
-  email            : "jwcnet93@gmail.com"
+  Gmail            : "jwcnet93@gmail.com"
   links:
     - label: "Gmail"
       icon: "fas fa-fw fa-envelope-square"
