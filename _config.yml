@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Developer Brandon's Blog"
+title                    : "Brandon's Tech Blog"
 title_separator          : "&#124;"
 subtitle                 : "ICEMAN : The Developer who growing up" # site tagline that appears below site title in masthead
 name                     : "Brandon Jung"
