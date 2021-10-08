@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "Developer Brandon's Blog"
 title_separator          : "&#124;"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "ICEMAN : The Developer who growing up" # site tagline that appears below site title in masthead
 name                     : "Brandon Jung"
 description              : "Making Blog..."
 url                      : "https://iceman-brandon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Brandon Jung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
-  bio              : "꾸준히 배우며 성장하는 개발자입니다. <br> Still Making this Tech Blog"
+  bio              : "꾸준히 배우며 성장하는 개발자. <br>  Learning and growing steadily as a Developer"
   location         : "Asan, Republic of Korea"
   Gmail            : "jwcnet93@gmail.com"
   links:
