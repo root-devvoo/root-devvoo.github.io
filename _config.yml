@@ -88,7 +88,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/brandon_mimoji.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Brandon Jung"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
+  avatar           : "/assets/images/brandon_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
   bio              : "Making..."
   location         : "Asan, Republic of Korea"
   Gmail            : "jwcnet93@gmail.com"
