@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: https://iceman-brandon.github.io/
   - title: "Categories"
-    permalink: /categories/
+    url: /categories/
   - title: "Posts"
     url: /year-archive/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
