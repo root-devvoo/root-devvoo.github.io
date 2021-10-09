@@ -32,9 +32,9 @@ words_per_minute         : 200
 
 # 댓글 관련
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" #블로그 댓글 기능 # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "iceman-brandon-github-io-3" #블로그 댓글 기능 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -296,7 +296,7 @@ defaults:
       author_profile: false # true일 경우 모든 포스트에 기본으로 좌사이드 바에 저자 소개란이 보인다
       read_time: false # 읽는데 걸리는 소요시간 표시
       show_date: true # 포스팅 날짜 표시
-      comments: true
+      comments: true # 블로그 댓글 기능
       share: true
       related: true
 
