@@ -293,7 +293,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false # true일 경우 모든 포스트에 기본으로 좌사이드 바에 저자 소개란이 보인다
+      author_profile: true # true일 경우 모든 포스트에 기본으로 좌사이드 바에 저자 소개란이 보인다
       read_time: false # 읽는데 걸리는 소요시간 표시
       show_date: true # 포스팅 날짜 표시
       comments: true # 블로그 댓글 기능
