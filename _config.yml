@@ -98,9 +98,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # 구글 어널리틱스 등록 # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-209773007-1"
     anonymize_ip         : # true, false (default)
 
 
