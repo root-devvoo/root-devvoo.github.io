@@ -228,7 +228,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -293,7 +293,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false # true일 경우 모든 포스트에 기본으로 좌사이드 바에 저자 소개란이 보인다
       read_time: false # 읽는데 걸리는 소요시간 표시
       show_date: true # 포스팅 날짜 표시
       comments: true

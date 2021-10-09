@@ -2,8 +2,12 @@
 main:
   - title: "Home"
     url: https://iceman-brandon.github.io/
+  - title: "Categories"
+    layout: categories
+    permalink: /categories/
+    author_profile: true
   - title: "Posts"
-    url: /posts/
+    url: /year-archive/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
