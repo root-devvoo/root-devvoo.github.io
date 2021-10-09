@@ -1,7 +1,8 @@
 ---
 title: "github.io 블로그 시작하기"
 excerpt: "GitHub Blog 서비스인 github.io 블로그를 차근차근 시작해본다."
-
+header:
+  teaser: /assets/images/brandon_mimoji.png
 categories:
   - Post
 tags:
