@@ -447,6 +447,10 @@
     font-size: $type-size-4;
     font-family: $serif;
     color: mix(#fff,$primary-color,80%);
+  
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .active {
