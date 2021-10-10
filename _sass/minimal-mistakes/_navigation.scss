@@ -443,6 +443,9 @@
 
   a {
     color: inherit;
+    font-size: $type-size-3;
+    font-family: $cute;
+    color: mix(#fff,$primary-color,80%);
   }
 
   .active {
@@ -535,7 +538,7 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {
