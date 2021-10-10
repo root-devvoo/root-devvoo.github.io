@@ -4,7 +4,7 @@ main:
     url: https://iceman-brandon.github.io/
   - title: "Categories"
     url: /categories/
-  - title: "Posts"
+  - title: "Post by Year"
     url: /year-archive/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
