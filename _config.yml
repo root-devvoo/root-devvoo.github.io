@@ -299,6 +299,7 @@ defaults:
       comments: true # 블로그 댓글 기능
       share: true
       related: true
+      sidebar_main: true
 
   # _pages
   - scope:
