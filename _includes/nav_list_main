@@ -12,11 +12,27 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">Backend</span>
+        <ul>
+            {% for category in site.categories %}
+                    {% if category[0] == "Java" %}
+                        <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
+                    {% endif %}
+            {% endfor %}    
+        </ul>
+         <ul>
+            {% for category in site.categories %}
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
+                    {% endif %}
+            {% endfor %}    
+        </ul>
+        
         <span class="nav__sub-title">Coding Test</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--BOJ 카테고리 글들을 모아둔 페이지인 /categories/boj 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
                 {% for category in site.categories %}
                     {% if category[0] == "BOJ" %}
                         <li><a href="/categories/boj" class="">백준 ({{category[1].size}})</a></li>
@@ -30,6 +46,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
         <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
@@ -38,7 +55,31 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+        <span class="nav__sub-title">DB</span>
+            <ul>
+                {% for category in site.categories %}
+                        {% if category[0] == "MySQL" %}
+                            <li><a href="/categories/mysql" class="">MySQL ({{category[1].size}})</a></li>
+                        {% endif %}
+                {% endfor %}    
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                        {% if category[0] == "Programmers SQL" %}
+                            <li><a href="/categories/python" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
+                        {% endif %}
+                {% endfor %}    
+            </ul>    
+
         <span class="nav__sub-title">etc</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "취업" %}
+                        <li><a href="/categories/getajob" class="">취업 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Post" %}
