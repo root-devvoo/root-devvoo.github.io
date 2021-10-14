@@ -67,7 +67,7 @@
             <ul>
                 {% for category in site.categories %}
                         {% if category[0] == "Programmers SQL" %}
-                            <li><a href="/categories/python" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
+                            <li><a href="/categories/programmers-sql" class="">프로그래머스 SQL ({{category[1].size}})</a></li>
                         {% endif %}
                 {% endfor %}    
             </ul>    
