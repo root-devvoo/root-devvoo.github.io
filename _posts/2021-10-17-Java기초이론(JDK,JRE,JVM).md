@@ -1,5 +1,5 @@
 ---
-title: "[Java] 기초 이론 (JDK, JRE, JVM)"
+title: "[Java] 자바 기초 이론 (JDK, JRE, JVM) / Java 8"
 excerpt: "Write once, Run anywhere"
 toc: true
 toc_sticky: true
