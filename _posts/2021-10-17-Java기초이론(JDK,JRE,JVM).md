@@ -41,13 +41,15 @@ last_modified_at: 2021-10-17T21:47:31+09:00
 - Java로 어플리케이션을 만들려면?
   - ⑴ JDK를 설치해야한다!<br>Java Development Kit Tool
 
-
+<br>
 
 - JDK를 설치하면 OS에 어떤 변화가?
   - JRE(Java Runtime Environment) :: 라이브러리
   - JVM(Java Virtual Machine) :: 소프트웨어 위에 올라가는 메모리
   - JDK를 설치하게 되면 자바 어플리케이션이 실행, 구동되는 장소가 만들어진다 :: 그게 JVM
   - 즉, JRE와 JVM이 OS에 맞게 갖춰진다
+
+<br>
 
 이렇게 갖춰진 상태에서...
 
