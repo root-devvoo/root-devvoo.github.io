@@ -4,7 +4,7 @@ excerpt: "내 스스로에게... 지못미"
 header:
   teaser: /assets/images/brandon_mimoji.png
 
-date: 2021-11-25 14:51:30
+date: 2021-11-25T14:51:30+09:00
   
 categories:
   - Post
