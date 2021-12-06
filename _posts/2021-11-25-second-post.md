@@ -3,6 +3,9 @@ title: "블로그 포스팅이 멈춘 이유"
 excerpt: "내 스스로에게... 지못미"
 header:
   teaser: /assets/images/brandon_mimoji.png
+
+date: 2021-11-25 14:51:30
+  
 categories:
   - Post
 tags:
