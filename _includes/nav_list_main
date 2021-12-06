@@ -55,6 +55,27 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Operating System" %}
+                        <li><a href="/categories/operatingsystem" class="">운영체제(Operating System)({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Database" %}
+                        <li><a href="/categories/database" class="">데이터베이스(Database)({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Network" %}
+                        <li><a href="/categories/network" class="">컴퓨터네트워크(Network)({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
         <span class="nav__sub-title">DB</span>
             <ul>
