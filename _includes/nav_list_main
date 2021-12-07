@@ -50,14 +50,14 @@
         <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Playdata1" %}
-                        <li><a href="/categories/playdata1" class="">Playdata 알고리즘 특강({{category[1].size}})</a></li>
+                    {% if category[0] == "Playdata Algo" %}
+                        <li><a href="/categories/playdatalgo" class="">Playdata 알고리즘 특강({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Operating System" %}
+                    {% if category[0] == "운영체제" %}
                         <li><a href="/categories/operatingsystem" class="">운영체제(OS)({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
