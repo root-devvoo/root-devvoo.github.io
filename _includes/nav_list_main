@@ -51,14 +51,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Playdata1" %}
-                        <li><a href="/categories/playdata1" class="">알고리즘 특강 (Encore Playdata) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/playdata1" class="">Playdata 알고리즘 특강({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Operating System" %}
-                        <li><a href="/categories/operatingsystem" class="">운영체제(Operating System)({{category[1].size}})</a></li>
+                        <li><a href="/categories/operatingsystem" class="">운영체제(OS)({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
