@@ -8,7 +8,13 @@
 @import "minimal-mistakes"; // main partials
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 //@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); // "Noto Sans KR"
-@import url('https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/stylesheets/NotoSansKR-Hestia.css'); // "Noto Sans Korean", 경량화된 노토 산스 한글 폰트 
+
+// "Noto Sans KR"
+@font-face {
+	font-family: 'Noto Sans KR';
+	src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+	font-weight: normal;
+	font-style: normal;
 
 // "Cafe24Oneprettynight"
 @font-face {
