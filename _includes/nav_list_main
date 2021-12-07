@@ -51,28 +51,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Playdata Algo" %}
-                        <li><a href="/categories/playdatalgo" class="">Playdata 알고리즘 특강({{category[1].size}})</a></li>
+                        <li><a href="/categories/playdatalgo" class="">Playdata 알고리즘 특강 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "운영체제" %}
-                        <li><a href="/categories/operatingsystem" class="">운영체제(OS)({{category[1].size}})</a></li>
+                        <li><a href="/categories/operatingsystem" class="">운영체제(OS) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Database" %}
-                        <li><a href="/categories/database" class="">데이터베이스(Database)({{category[1].size}})</a></li>
+                        <li><a href="/categories/database" class="">데이터베이스(Database) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">컴퓨터네트워크(Network)({{category[1].size}})</a></li>
+                        <li><a href="/categories/network" class="">컴퓨터네트워크(Network) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
