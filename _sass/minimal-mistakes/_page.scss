@@ -74,10 +74,10 @@ body {
   line-height: 1.2; // default: 1;
   color: mix(#fff, $primary-color, 40%);
 
-  /*a {
-    color: $text-color;
+  a {
+    color: #77acff;
     text-decoration: none;
-  }*/
+  }
 
   & + .page__meta {
     margin-top: -0.5em;
