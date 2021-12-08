@@ -51,7 +51,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Playdata Algo" %}
-                        <li><a href="/categories/playdatalgo" class="">Playdata 알고리즘 특강 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/playdatalgo" class="">Playdata 알고리즘 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
