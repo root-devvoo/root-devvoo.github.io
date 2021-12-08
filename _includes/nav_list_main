@@ -57,8 +57,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "운영체제" %}
-                        <li><a href="/categories/operatingsystem" class="">운영체제(OS) ({{category[1].size}})</a></li>
+                    {% if category[0] == "OS" %}
+                        <li><a href="/categories/os" class="">운영체제(OS) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

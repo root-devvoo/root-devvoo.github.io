@@ -1,10 +1,10 @@
 ---
 title: "운영체제(Operating System)에 대한 학습노트"
 layout: archive
-permalink: categories/operatingsystem
+permalink: categories/os
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.['운영체제'] %}
+{% assign posts = site.categories.os %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
