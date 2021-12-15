@@ -77,7 +77,7 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">DB</span>
+        <span class="nav__sub-title">DBMS</span>
             <ul>
                 {% for category in site.categories %}
                         {% if category[0] == "MySQL" %}
