@@ -108,8 +108,8 @@ analytics:
 author:
   name             : "Brandon Jung"
   avatar           : "/assets/images/brandon_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
-  bio              : "공부하고, 기록하는<br>새내기 개발자"
-  location         : "Asan, South Korea"
+  bio              : "좋은 개발자가 되고 싶습니다"
+  location         : "Republic of Korea"
   Gmail            : "jwcnet93@gmail.com"
   links:
     - label: "Gmail"
