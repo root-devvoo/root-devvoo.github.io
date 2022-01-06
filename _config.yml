@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Brandon Jung"
   avatar           : "/assets/images/brandon_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
-  bio              : "좋은 개발자가 되고 싶습니다"
+  bio              : "좋은 개발자가 되고 싶다!<br>I want to be a<br>great Developer!"
   location         : "Republic of Korea"
   Gmail            : "jwcnet93@gmail.com"
   links:
