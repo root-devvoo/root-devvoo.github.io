@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    // 2.1. magnific-popup 적용.
+    // 2.1. 모든 이미지에 magnific-popup 적용.
     $('.page__content img').wrap( function(){
 		
         // 2.2. magnific-popup 옵션 설정.
