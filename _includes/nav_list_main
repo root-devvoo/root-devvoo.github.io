@@ -96,8 +96,8 @@
         <span class="nav__sub-title">etc</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "취업" %}
-                        <li><a href="/categories/getajob" class="">취업 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Githublog" %}
+                        <li><a href="/categories/githublog" class="">github.io Blog ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -107,7 +107,7 @@
                         <li><a href="/categories/post" class="">Post ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>    
+            </ul>   
       </li>
   </ul>
 </nav>
