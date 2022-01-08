@@ -7,7 +7,7 @@ $(document).ready(function() {
         $(this).magnificPopup({
             type: 'image',
             closeOnContentClick: true,
-            showCloseBtn: true,
+            showCloseBtn: false,
             items: {
               src: $(this).attr('src')
             },
@@ -17,6 +17,6 @@ $(document).ready(function() {
         $(this).parent('p').css('overflow', 'auto');
 				
         // 2.4. 이미지를 감쌀 태그 설정.
-        return '<a href="' + $(this).attr('src') + '" style="width:' + $(this).attr('width') +'px; float: left;"><figure> </figure>' + '<figcaption style="text-align: center;" class="caption">' + $(this).attr('alt') + '</figcaption>' + '</a>';
+        return '<a href="' + $(this).attr('src') + '" style="width:' + $(this).attr('width') +'px; float: left;"><figure> </figure>' + '</a>';
     });
 });
