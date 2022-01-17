@@ -125,7 +125,7 @@ last_modified_at: 2022-01-17T14:48:54+09:00
 >
 > 그럼 이 상황이 Deadlock이냐 아니냐? 그것을 체크해봐야 된다.<br>먼저, P<sub>1</sub>(프로세스 1번)은 2번 자원을 가지고 있으면서 1번 자원을 기다리고 있는데, 그 1번 자원은 지금 P<sub>2</sub>가 가지고 있다. 그리고, P<sub>2</sub>는 2번 자원을 하나 가지고 있으면서 3번 자원을 기다리고 있는데, 3번 자원은 P<sub>3</sub>한테 가있는 상황<br>이게 과연 데드락이냐 아니냐? 데드락인지 아닌지를 자원할당그래프에서 알 수 있는 방법은 일단 그래프 안에 사이클이 없으면 데드락이 아니다. (화살표를 따라가 보자)
 
-![image](https://user-images.githubusercontent.com/78403443/149690055-654b445a-c9f7-4bb8-b3a7-d814895aa1f8.png)
+<img src="https://user-images.githubusercontent.com/78403443/149690055-654b445a-c9f7-4bb8-b3a7-d814895aa1f8.png" alt="image" style="zoom:50%;" />
 
 - 그래프에 cycle이 없으면 <u>deadlock</u>이 아니다
 - 그래프에 cycle이 있으면
