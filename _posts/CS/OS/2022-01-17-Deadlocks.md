@@ -32,6 +32,10 @@ tags:
   - Resource-Allocation Graph
   - 자원할당그래프
   - Deadlock의 처리 방법
+  - Deadlock Prevention
+  - Deadlock Avoidance
+  - Resource Allocation Graph Algorithm
+  - Banker's Algorithm
  
 last_modified_at: 2022-01-17T14:48:54+09:00
 ---
@@ -259,7 +263,7 @@ last_modified_at: 2022-01-17T14:48:54+09:00
 - request edge의 assignment edge 변경시 (점선을 포함하여) cycle이 생기지 않는 경우에만 요청 자원을 할당한다
 - Cycle 생성 여부 조사시 프로세스의 수가 n일 때 O(n<sup>2</sup>) 시간이 걸린다
 
-![image](https://user-images.githubusercontent.com/78403443/149705136-8207919e-e448-479a-8f7a-bae9ed7475d9.png)
+<img src="https://user-images.githubusercontent.com/78403443/149705136-8207919e-e448-479a-8f7a-bae9ed7475d9.png" alt="image" style="zoom:50%;" />
 
 > 아까처럼 자원으로부터 프로세스에게 가는 화살표는 이 자원이 이 프로세스한테 할당되어 있는 상황을 의미.<br>프로세스로부터 자원쪽으로 가는 화살표는 이 자원을 프로세스가 요청을 했는데 아직 할당받지는 못한 것 (자원이 1번 프로세스한테 할당되어 있기 때문)
 >
