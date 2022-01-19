@@ -50,7 +50,7 @@ last_modified_at: 2022-01-19T20:50:06+09:00
 
 > 메모리라는 것은 주소를 통해서 접근하는 매체이다.
 
-- <span style='color: pink'>***<u>Logical address</u>***</span><span style='color: #1d74ff'>(=*virtual address*)</span>
+- <span style='color: pink'>***<u>Logical address</u>***</span><span style='color: #87ceeb'>(=*virtual address*)</span>
 
   > 논리적인 주소 (가상 주소라고도 부름)
 
@@ -80,14 +80,14 @@ last_modified_at: 2022-01-19T20:50:06+09:00
 
   - 물리적 메모리 주소(physical address)가 컴파일 시 알려짐
   - 시작 위치 변경시 재컴파일
-  - 컴파일러는 절대 코드(<span style='color: #1d74ff'>*<u>absolute code</u>*</span>) 생성
+  - 컴파일러는 절대 코드(<span style='color: #87ceeb'>*<u>absolute code</u>*</span>) 생성
 
 - <span style='color: pink'>***<u>Load time binding</u>***</span>
 
   > 실행이 시작될 때 주소 변환이 이루어지는 것
 
   - Loader의 책임하에 물리적 메모리 주소 부여
-  - 컴파일러가 재배치가능코드(<span style='color: #1d74ff'>*<u>relocatable code</u>*</span>)를 생성한 경우 가능
+  - 컴파일러가 재배치가능코드(<span style='color: #87ceeb'>*<u>relocatable code</u>*</span>)를 생성한 경우 가능
 
 - <span style='color: pink'>***<u>Execution time binding (=Run time binding)</u>***</span>
 
@@ -95,7 +95,7 @@ last_modified_at: 2022-01-19T20:50:06+09:00
 
   - 수행이 시작된 이후에도 프로세스의 메모리 상 위치를 옮길 수 있음
   - CPU가 주소를 참조할 때마다 binding을 점검 (address mapping table)
-  - <span style='color: #1d74ff'><u>하드웨어적인 지원이 필요</u></span><br>(e.g., *base* and *limit registers, MMU*)
+  - <span style='color: #87ceeb'><u>하드웨어적인 지원이 필요</u></span><br>(e.g., *base* and *limit registers, MMU*)
 
 > 이 3가지를 비교하는건 아래 그림을 통해서 보면 쉽다.
 >
@@ -143,12 +143,12 @@ last_modified_at: 2022-01-19T20:50:06+09:00
 > 주소 변환을 위한 하드웨어
 
 - <span style='color: pink'>***<u>MMU (Memory-Management Unit)</u>***</span>
-  - <span style='color: #1d74ff'>*logical address*</span>를 <span style='color: #1d74ff'>*physical address*</span>로 매핑해주는 <span style='color: #1d74ff'>*Hardware device*</span>
+  - <span style='color: #87ceeb'>*logical address*</span>를 <span style='color: #87ceeb'>*physical address*</span>로 매핑해주는 <span style='color: #87ceeb'>*Hardware device*</span>
 - MMU scheme
-  - 사용자 프로세스가 CPU에서 수행되며 생성해내는 모든 주소값에 대해 <span style='color: #1d74ff'>*base register (=relocation register)*</span>의 값을 더한다
+  - 사용자 프로세스가 CPU에서 수행되며 생성해내는 모든 주소값에 대해 <span style='color: #87ceeb'>*base register (=relocation register)*</span>의 값을 더한다
 - user program
-  - <span style='color: #1d74ff'>*logical address*</span>만을 다룬다
-  - 실제 <span style='color: #1d74ff'>*physical address*</span>를 볼 수 없으며 알 필요가 없다
+  - <span style='color: #87ceeb'>*logical address*</span>만을 다룬다
+  - 실제 <span style='color: #87ceeb'>*physical address*</span>를 볼 수 없으며 알 필요가 없다
 
 > 주소 변환을 할 때는 기본적인 MMU에서는 레지스터 2개를 통해서 주소 변환을 하게 된다.
 
@@ -230,7 +230,7 @@ last_modified_at: 2022-01-19T20:50:06+09:00
 - 프로세스의 크기가 메모리보다 클 때 유용
 - 운영체제의 지원없이 사용자에 의해 구현
 - 작은 공간의 메모리를 사용하던 초창기 시스템에서 수작업으로 프로그래머가 구현
-  - <span style='color: #1d74ff'>"Manual Overlay"</span>
+  - <span style='color: #87ceeb'>"Manual Overlay"</span>
   - 프로그래밍이 매우 복잡
 
 > 내용을 보면 다이나믹 로딩과 거의 똑같다. Overlays의 첫번째 문장내용만 봐서는 다이나믹 로딩과 오버레이는 차이가 없는데... 역사적으로 조금 다르다.
@@ -245,7 +245,7 @@ last_modified_at: 2022-01-19T20:50:06+09:00
 
 - <span style='color: pink'>***<u>Swapping</u>***</span>
 
-  - 프로세스를 일시적으로 메모리에서 <span style='color: #1d74ff'>*backing store*</span>로 쫓아내는 것
+  - 프로세스를 일시적으로 메모리에서 <span style='color: #87ceeb'>*backing store*</span>로 쫓아내는 것
 
     > 하드디스크 같이 메모리에서 쫓겨나는 것을 저장하는 곳을 Backing store라고 부르고 다른 말로는 swap area라고도 부른다.
 
