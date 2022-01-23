@@ -52,11 +52,11 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 </div>
 ### The Deadlock Problem
 
-- ***<u>Deadlock</u>***
+- <span style='color: pink'>***<u>Deadlock</u>***</span>
 
   - 일련의 프로세스들이 서로가 가진 자원을 기다리며 block된 상태
 
-- ***<u>Resource</u>*** (자원)
+- <span style='color: pink'>***<u>Resource</u>***</span> (자원)
 
   - 하드웨어, 소프트웨어 등을 포함하는 개념
 
@@ -91,19 +91,19 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
 > 4가지 조건이 동시에 성립할 때 발생한다<br>4가지 조건 중 하나라도 성립하지 않는다면 교착 상태를 해결할 수 있다
 
-- ***<u>Mutual exclusion (상호 배제)</u>***
+- <span style='color: pink'>***<u>Mutual exclusion (상호 배제)</u>***</span>
 
   - 매 순간 하나의 프로세스만이 자원을 사용할 수 있음<br>(상대를 고려하지 않고, 독점적으로 사용)
 
-- ***<u>No preemption (비선점)</u>***
+- <span style='color: pink'>***<u>No preemption (비선점)</u>***</span>
 
   - 프로세스는 자원을 스스로 내어놓을 뿐 강제로 빼앗기지 않음<br>(자원을 빼앗길 수가 있으면 Deadlock은 생기지 않음)
 
-- ***<u>Hold and wait (보유 대기)</u>***
+- <span style='color: pink'>***<u>Hold and wait (보유 대기)</u>***</span>
 
   - 자원을 가진 프로세스가 다른 자원을 기다릴 때 보유 자원을 놓지 않고 계속 가지고 있음<br>(내가 가진 자원은 내어놓지 않으면서 추가적으로 자원을 요청해야지만 Deadlock이 생긴다)
 
-- ***<u>Circular wait (순환 대기)</u>***
+- <span style='color: pink'>***<u>Circular wait (순환 대기)</u>***</span>
 
   - 자원을 기다리는 프로세스간에 사이클이 형성되어야 함
 
@@ -136,7 +136,7 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
 - 그래프에 cycle이 없으면 <u>deadlock</u>이 아니다
 - 그래프에 cycle이 있으면
-  - if **<u>only one instance</u>** per resource type, then **<u>deadlock</u>**
+  - if <span style='color: #b1a5c8'>**<u>only one instance</u>**</span> per resource type, then <span style='color: #b1a5c8'>**<u>deadlock</u>**</span>
   - if several instances per resource type, possibility of deadlock
 
 > 왼쪽 그림의 경우 두개의 사이클이 있고, 오른쪽 그림의 경우 하나의 사이클이 있음. 사이클이 없는 상황은 아님. 그럼 둘다 데드락일까? 데드락일 수도 있고 아닐 수도 있음.
@@ -151,20 +151,20 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
 ### Deadlock의 처리 방법
 
-- ***<u>Deadlock Prevention</u>***
+- <span style='color: pink'>***<u>Deadlock Prevention</u>***</span>
 
   - 자원 할당시 Deadlock의 4가지 필요 조건 중 어느 하나가 만족되지 않도록 하는 것
 
-- ***<u>Deadlock Avoidance</u>***
+- <span style='color: pink'>***<u>Deadlock Avoidance</u>***</span>
 
   - 자원 요청에 대한 부가적인 정보를 이용해서 deadlock의 가능성이 없는 경우에만 자원을 할당
   - 시스템 state가 원래 state로 돌아올 수 있는 경우에만 자원 할당
 
-- ***<u>Deadlock Detection and recovery</u>***
+- <span style='color: pink'>***<u>Deadlock Detection and recovery</u>***</span>
 
   - Deadlock 발생은 허용하되 그에 대한 detection 루틴을 두어 deadlock 발견시 recover
 
-- ***<u>Deadlock Ignorance</u>***
+- <span style='color: pink'>***<u>Deadlock Ignorance</u>***</span>
 
   - Deadlock을 시스템이 책임지지 않음
 
@@ -180,13 +180,13 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
 > 데드락이 발생하는 4가지 조건 중 어느 하나를 원천적으로 차단해서 데드락에 들어가지 못하게 하는 방법
 
-- ***<u>Mutual Exclusion</u>***
+- <span style='color: #b1a5c8'>***<u>Mutual Exclusion</u>***</span>
 
   - 공유해서는 안되는 자원의 경우 반드시 성립해야 함
 
     > 막을 수 있는 조건은 아님...
 
-- ***<u>Hold and Wait</u>***
+- <span style='color: #b1a5c8'>***<u>Hold and Wait</u>***</span>
 
   - 프로세스가 자원을 요청할 때 다른 어떤 자원도 가지고 있지 않아야 한다
 
@@ -198,7 +198,7 @@ last_modified_at: 2022-01-18T12:53:35+09:00
     >
     > Hold and Wait인 방법 2는 자진해서 반납을 함으로써 문제를 해결한 것임
 
-- ***<u>No Preemption</u>***
+- <span style='color: #b1a5c8'>***<u>No Preemption</u>***</span>
 
   - process가 어떤 자원을 기다려야 하는 경우 이미 보유한 자원이 선점됨
 
@@ -208,7 +208,7 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
     > 데드락이 생기는 이유가 가지고 있는 자원을 뺏어올 수 없기 때문에 데드락이 생기는 것이었는데, 반대로 데드락을 뺏어올 수 있게 (자원을 Preemption할 수 있게) 해서 데드락이 안생기도록 함.<br>그러나 중간에 빼앗아오면 하던 일에 문제가 생겨서 Preemption을 허용하기 어려운 자원들이 있다. 그럴 때는 이 방법을 사용하기 어렵다.
 
-- ***<u>Circular Wait</u>***
+- <span style='color: #b1a5c8'>***<u>Circular Wait</u>***</span>
 
   - 모든 자원 유형에 할당 순서를 정하여 정해진 순서대로만 자원 할당
 
@@ -232,13 +232,13 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
     > 프로세스가 시작되서 종료될 때까지 그때그때 상황마다 쓰려는 자원의 수나 종류가 다르다. Deadlock avoidance는 보통 프로세스가 시작 될 때 이 프로세스가 평생에 쓸 자원의 최대량을 미리 알고있다고 가정하고, 데드락을 피해가는 것.<br>평생에 쓸 자원을 미리 알고 있기 때문에 어떤 프로세스가 자원 요청을 했을 때 혹시 내가 이 자원을 할당해주면 데드락이 생길 가능성이 있겠다면 자원에 여분이 있는데도 불구하고 주지 않는다.
 
-- *safe state*
+- <span style='color: #b1a5c8'>*safe state*</span>
 
-  - 시스템 내의 프로세스들에 대한 *safe sequence*가 존재하는 상태
+  - 시스템 내의 프로세스들에 대한 <span style='color: #b1a5c8'>*safe sequence*</span>가 존재하는 상태
 
-- *safe sequence*
+- <span style='color: #b1a5c8'>*safe sequence*</span>
 
-  - 프로세스의 sequence <*P<sub>1</sub>*, *P<sub>2</sub>*, ..., *P<sub>n</sub>*>이 safe하려면 *P<sub>i</sub>* (1 ≤ *i* ≤ *n*)의 자원 요청이 "가용 자원 + 모든 *P<SUB>j</SUB> (j < i)*의 보유 자원"에 의해 충족되어야 함
+  - 프로세스의 sequence <*P<sub>1</sub>*, *P<sub>2</sub>*, ..., *P<sub>n</sub>*>이 safe하려면 *P<sub>i</sub>* (1 ≤ *i* ≤ *n*)의 자원 요청이 <span style='color: pink'>"가용 자원 + 모든 *P<SUB>j</SUB> (j < i)*의 보유 자원"</span>에 의해 충족되어야 함
   - 조건을 만족하면 다음 방법으로 모든 프로세스의 수행을 보장
     - *P<sub>i</sub>*의 자원 요청이 즉시 충족될 수 없으면 모든  *P<SUB>j</SUB> (j < i)*가 종료될 때까지 기다린다
     - *P<sub>i-1</sub>* 이 종료되면 *P<sub>i</sub>*의 자원 요청을 만족시켜 수행한다
@@ -246,20 +246,20 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 <img src="https://user-images.githubusercontent.com/78403443/149704441-56fdff83-e5a4-4f9c-b952-c5c88f8d6074.png" alt="image" style="zoom:50%;" align='right'/>
 
 - 시스템이 safe state에 있으면<br>→ no deadlock
-- 시스템이 <u>unsafe</u> state에 있으면<br>→ <u>possibility of deadlock</u>
+- 시스템이 <span style='color: #b1a5c8'><u>unsafe</u></span> state에 있으면<br>→ <span style='color: #b1a5c8'><u>possibility of deadlock</u></span>
 - Deadlock Avoidance
   - 시스템이 unsafe state에 들어가지 않는 것을 보장
   - 2가지 경우의 avoidance 알고리즘
-    - Single instance per resource types
-      - <u>Resource Allocation Graph Algorithm 사용</u>
-    - Multiple instances per resource types
-      - <u>Banker's Algorithm 사용</u>
+    - <span style='color: #b1a5c8'>Single instance</span> per resource types
+      - <span style='color: pink'><u>Resource Allocation Graph Algorithm 사용</u></span>
+    - <span style='color: #b1a5c8'>Multiple instances</span> per resource types
+      - <span style='color: pink'><u>Banker's Algorithm 사용</u></span>
 
 ##### Resource Allocation Graph Algorithm
 
 > 자원에 대한 인스턴스가 하나밖에 없는 환경에서 데드락을 피해가는 알고리즘
 
-- ***<u>Claim edge</u>** P<SUB>i</SUB> → R<SUB>j</SUB>*
+- <span style='color: pink'>***<u>Claim edge</u>***</span> *P<SUB>i</SUB> → R<SUB>j</SUB>*
   - 프로세스 *P<SUB>i</SUB>*가 자원 *R<SUB>j</SUB>*를 미래에 요청할 수 있음을 뜻함 (점선으로 표시)
   - 프로세스가 해당 자원 요청시 request edge로 바뀜 (실선)
   - R<SUB>j</SUB>가 release되면 assignment edge는 다시 claim edge로 바뀐다
@@ -323,7 +323,7 @@ last_modified_at: 2022-01-18T12:53:35+09:00
     - *P<sub>j</sub>*가 가지고 있는 자원을 *P<SUB>k</SUB>*가 기다리는 경우 *P<SUB>k</SUB>* → *P<sub>j</sub>*
   - Algorithm
     - Wait-for graph에 사이클이 존재하는지를 주기적으로 조사
-    - <u>O(n<sup>2</sup>)</u>
+    - <span style='color: #b1a5c8'><u>O(n<sup>2</sup>)</u></span>
 
 > 앞에 Deadlock avoidance와 비슷하게 자원 당 인스턴스가 하나 밖에 없는 경우에는 자원할당그래프를 이용해서 Deadlock Detection을 하는 것이 가능하고(그래프를 굳이 안그리고 테이블 그려서 하는 것이 더 좋은 방법), 자원 당 인스턴스가 여러개 있을 때는 테이블을 그려서 현재 상태가 데드락인지를 Detection할 수 있다.
 
@@ -381,19 +381,19 @@ last_modified_at: 2022-01-18T12:53:35+09:00
 
 - Recovery
 
-  - ***<u>Process termination</u>***
+  - <span style='color: pink'>***<u>Process termination</u>***</span>
 
     > 프로세스를 종료시키는 방법
 
-    - Abort <u>all</u> deadlocked processes
+    - Abort <span style='color: #b1a5c8'><u>all</u></span> deadlocked processes
 
-    - Abort <u>one process at a time</u> until the deadlock cycle is eliminated
+    - Abort <span style='color: #b1a5c8'><u>one process at a time</u></span> until the deadlock cycle is eliminated
 
       > 하나는 데드락에 연루된 프로세스들을 사살하는 것이다.<br>그 중에서도 데드락에 연루된 모든 프로세스들을 한꺼번에 죽이는 방법이 첫번째 방법.
       >
       > 두번째 방법은 데드락에 연루된 프로세스를 하나씩 죽여보는 것이다. 하나를 죽였더니 데드락이 없어졌다면 ok... 하나를 죽였는데도 여전히 데드락이라면 또 하나의 프로세스를 죽여보는 것이다. 데드락이 없어질 때까지... 
 
-  - ***<u>Resource Preemption</u>***
+  - <span style='color: pink'>***<u>Resource Preemption</u>***</span>
 
     > 데드락에 연루된 프로세스로부터 자원을 뺏는 방법
 
