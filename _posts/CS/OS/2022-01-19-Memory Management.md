@@ -945,7 +945,7 @@ last_modified_at: 2022-01-27T13:42:37+09:00
 ###### Segmentation Architecture
 
 - Logical address는 다음의 두 가지로 구성<br><span style='color: pink'>**<*segment-number, offset*>**</span>
-- <span style='color: pink'><u>***Segment table***</u></span>
+- <span style='color: pink'>***<u>Segment table</u>***</span>
   - each table entry has:
     - <span style='color: pink'>***base***</span> - <span style='color: #87ceeb'>*starting physical address*</span> of the segment
     - <span style='color: pink'>***limit***</span> - <span style='color: #87ceeb'>*length*</span> of the segment
@@ -1121,7 +1121,7 @@ last_modified_at: 2022-01-27T13:42:37+09:00
 >
 > 즉, 운영체제라는 것도 사실은 하나의 프로그램이기 때문에, 그래서 CPU를 잡으면 인스트럭션을 실행하는 거는 다른 프로그램과 크게 다르지 않다.
 >
-> <u>**이 챕터에서 사실상 운영체제의 역할은 없었다.**</u>
+> **<u>이 챕터에서 사실상 운영체제의 역할은 없었다.</u>**
 
 > 그렇지만, 다음 챕터로 넘어가면 <u>Virtual Memory 부분이 나오는데, 이 Virtual Memory 부분에서는 운영체제가 중요한 역할을 하게 된다.</u>
 
