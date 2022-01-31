@@ -45,7 +45,7 @@ tags:
   - LFU Algorithm
   - LFU 알고리즘  
  
-last_modified_at: 2022-01-28T16:52:03+09:00
+last_modified_at: 2022-01-31T12:42:21+09:00
 ---
 
 ## Virtual Memory (1)
