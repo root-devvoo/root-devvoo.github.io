@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ICEMAN's Tech Blog"
+title                    : "DEVVOO's Tech Blog"
 title_separator          : "&#124;"
 subtitle                 : "ICEMAN : The Developer who growing up" # site tagline that appears below site title in masthead
 name                     : "Brandon Jung"
 description              : "ICEMAN : The Developer who growing up"
-url                      : "https://iceman-brandon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://root-devvoo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "iceman-brandon/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "root-devvoo/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "성장하는 개발자 ICEMAN" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "성장하는 개발자 DEVVOO" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/iceman-brandon"
+      url: "https://github.com/root-devvoo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -146,10 +146,10 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/iceman-brandon"
+      url: "https://github.com/root-devvoo"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      url: "https://gitlab.com/iceman-brandon"
+      url: "https://gitlab.com/root-devvoo"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
