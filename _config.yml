@@ -20,7 +20,7 @@ title                    : "DEVVOO's Tech Blog"
 title_separator          : "&#124;"
 subtitle                 : "root-devvoo : The Developer who growing up" # site tagline that appears below site title in masthead
 name                     : "Brandon Jung"
-description              : "root-devvoo : The Developer who growing up"
+description              : "root-devvoo : 성장하는 개발자"
 url                      : "https://root-devvoo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "root-devvoo/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
