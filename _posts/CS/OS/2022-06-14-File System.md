@@ -35,7 +35,7 @@ tags:
   - 버퍼 캐싱
   - Buffer Caching
  
-last_modified_at: 2022-06-14T18:25:23+09:00
+last_modified_at: 2022-06-14T18:38:45+09:00
 ---
 
 ## File System (1)
@@ -51,7 +51,7 @@ last_modified_at: 2022-06-14T18:25:23+09:00
 >
 > 우리가 전 챕터에서 '메모리 시스템'에 대해서 배웠는데, '메모리'는 주소를 통해서 접근하는 그런 장치였다.
 
-- <span style='color: pink'><u>***File***</u></span>
+- ***<span style='color: pink'><u>File</u></span>***
 
   > 반면에 디스크에 일반적으로 저장되는 '파일'이라는 것은 
 
@@ -81,7 +81,7 @@ last_modified_at: 2022-06-14T18:25:23+09:00
       >
       > 그러면, `open`하고 `close`가 왜 굳이 따로 정의가 되있느냐?<br>`open`의 역할은 그 파일을 디스크에서 메모리로 내용을 올려놓는게 아니라, 파일의 `metadata`를 메모리로 올려놓는 작업을 파일의 `open`이라고 부른다. (뒤에 다시 설명 예정)
 
-- <span style='color: pink'><u>***File attribute***</u></span> (혹은 파일의 <span style='color: pink'><u>***metadata***</u></span>)
+- ***<span style='color: pink'><u>File attribute</u></span>*** (혹은 파일의 ***<span style='color: pink'><u>metadata</u></span>***)
 
   > 그 다음에 파일에는... 그 파일 자체의 내용말고 그 파일을 관리하기 위한 정보가 있다. 
 
@@ -95,7 +95,7 @@ last_modified_at: 2022-06-14T18:25:23+09:00
 
     - 접근 권한 (읽기/쓰기/실행), 시간 (생성/변경/사용), 소유자 등
 
-- <span style='color: pink'><u>***File system***</u></span>
+- ***<span style='color: pink'><u>File system</u></span>***
 
   > 파일 시스템이라는 것은 운영체제에서 파일을 관리하는 소프트웨어 부분이다.
 
@@ -117,7 +117,7 @@ last_modified_at: 2022-06-14T18:25:23+09:00
 
 ### Directory and Logical Disk
 
-<span style='color: pink'><u>***Directory***</u></span>
+***<span style='color: pink'><u>Directory</u></span>***
 
 - 파일의 메타데이터 중 일부를 보관하고 있는 일종의 특별한 파일
 
@@ -149,7 +149,7 @@ last_modified_at: 2022-06-14T18:25:23+09:00
 
 > 결국에는 이런 파일 시스템이 하드디스크에 저장이 될텐데, 이 디스크라는게 논리적인 디스크가 있고, 또 물리적인 디스크가 있다.
 
-<span style='color: pink'><u>***Partition***</u></span> (= <span style='color: pink'><u>***Logical Disk***</u></span>)
+***<span style='color: pink'><u>Partition</u></span>*** (= ***<span style='color: pink'><u>Logical Disk</u></span>***)
 
 > (그 두 가지의 차이는 나중에 설명하겠지만) 운영체제가 보는 디스크라는건 '논리적인 디스크'이다. 그리고, 이 논리적인 디스크를 다른 말로 '파티션' 이라고도 부른다. 우리가 하드디스크 하나 사서 C드라이브, D드라이브 이렇게 파티션을 나누면, 그 각각이 논리적인 디스크가 된다는 것이다.
 
@@ -161,13 +161,14 @@ last_modified_at: 2022-06-14T18:25:23+09:00
 
   > 또, 경우에 따라서는 물리적인 디스크 여러개를 합쳐가지고, 논리적인 디스크 하나를 구성할 수도 있다.
 
-- (물리적) 디스크를 파티션으로 구성한 뒤 각각의 파티션에 <u>***file system***</u>을 깔거나 <u>***swapping***</u> 등 다른 용도로 사용할 수 있음
+- (물리적) 디스크를 파티션으로 구성한 뒤 각각의 파티션에 ***<u>file system</u>***을 깔거나 ***<u>swapping</u>*** 등 다른 용도로 사용할 수 있음
 
   > 그래서 이러한 파티션에 즉, 논리적인 디스크에다가 우리가 파일 시스템을 설치할 수가 있고 또는, 이 논리적인 디스크를 전 챕터에서 배웠던 Virtual Memory(버츄얼 메모리) swap area(스왑 에어리어) 용도로 사용을 할 수도 있는 것이다.
 
   > 그래서, 우리가 디스크의 용도를 크게
   >
   > - 파일 시스템 용도
+  >
   > - 스왑 에어리어 용도
   >
   > 이렇게 두 가지로 나눠볼 수가 있는 것이다.
@@ -317,16 +318,6 @@ last_modified_at: 2022-06-14T18:25:23+09:00
 >
 > 그 다음에 Open file table은 파일을 open했으면 프로세스마다 가지고 있는게 아니라, open된 파일의 목록들을 system wide하게 한꺼번에 관리를 하고 있으므로 그래서, 이러한 테이블은 `system-wide open file table 시스템 전체에 하나 존재하는 오픈 파일 테이블이다.` 이렇게 부르는 것이다.
 
-
-
-
-
-
-
 ---
-
-
-
-
 
 **[맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}**
