@@ -392,7 +392,7 @@ last_modified_at: 2022-06-16T12:47:20+09:00
       > - 그 다음 사용자와 동일 그룹에 속한 사용자들에 대해서, 읽기, 쓰기, 실행권한이 있는지 없는지 표시
       > - 나머지 전체 외부 사용자들에 대해서, 읽기, 쓰기, 실행권한이 있는지 없는지 표시
   
-    - (예) UNIX<img src="https://user-images.githubusercontent.com/78403443/173977949-06a07158-accd-4394-8546-735171d1dae8.png" alt="image" style="zoom:50%;" />
+    - (예) UNIX      <img src="https://user-images.githubusercontent.com/78403443/173977949-06a07158-accd-4394-8546-735171d1dae8.png" alt="image" style="zoom:50%;" />
   
       > 이런 그룹핑 방법을 쓰게 되면, 파일 하나에 대해서 접근 권한을 나타내기 위해서 총 9개의 비트만 있으면 된다.<br>(이렇게 해주면, 굉장히 효율적이다. 파일에 대한 접근 권한이 단 9개의 비트면 되는거니...)
   
