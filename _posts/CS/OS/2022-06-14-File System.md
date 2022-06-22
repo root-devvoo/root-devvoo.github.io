@@ -1,6 +1,6 @@
 ---
 title: "[운영체제] 파일 시스템"
-excerpt: "File System"
+excerpt: "File Systems"
 toc: true
 toc_sticky: true
 toc_label: "주요 목차"
@@ -23,7 +23,7 @@ tags:
   - 컴퓨터 과학
   - Operating System
   - 운영체제
-  - File System
+  - File Systems
   - 파일 시스템
   - File
   - 파일
