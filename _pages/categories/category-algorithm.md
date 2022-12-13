@@ -1,5 +1,5 @@
 ---
-title: "알고리즘(Algorithm) & 자료구조(Data Structure)에 대한 학습노트"
+title: "자료구조(Data Structure) & 알고리즘(Algorithm)에 대한 학습노트"
 layout: archive
 permalink: categories/algorithm
 author_profile: true
