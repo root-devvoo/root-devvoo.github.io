@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 gemfile: Gemfile
 before_install:
-    - bundle install
+  - bundle install
   # - gem install bundler
 script:
   - bundle exec jekyll algolia --config _config.yml
