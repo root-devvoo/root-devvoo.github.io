@@ -8,7 +8,7 @@ sidebar_main: true
 
 ***
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=root-devvoo&repo=Algorithm&theme=tokyonight)](https://github.com/root-devvoo/Algorithm)
+[![Readme Card](https://github-readme-stats-psi-self.vercel.app/api/pin/?username=root-devvoo&repo=Algorithm&theme=tokyonight)](https://github.com/root-devvoo/Algorithm)
 
 {% assign posts = site.categories.Programmers %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
