@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "DEVVOO's Tech Blog"
 title_separator          : "&#124;"
 subtitle                 : "root-devvoo : The Developer who growing up" # site tagline that appears below site title in masthead
-name                     : "Brandon Jung"
+name                     : "Victor Jung"
 description              : "root-devvoo : 성장하는 개발자"
 url                      : "https://root-devvoo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -91,7 +91,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/brandon_mimoji.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/victor_mimoji.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -109,15 +109,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Brandon Jung"
-  avatar           : "/assets/images/brandon_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
+  name             : "Victor Jung"
+  avatar           : "/assets/images/victor_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
   bio              : "루트 노드를 향하여~<br>Towards the root node!"
-  location         : "Republic of Korea"
-  Gmail            : "jwcnet93@gmail.com"
+  location         : "Seoul, Korea"
+  Gmail            : "root.devvoo@gmail.com"
   links:
     - label: "Gmail"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jwcnet93@gmail.com"
+      url: "mailto:root.devvoo@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
