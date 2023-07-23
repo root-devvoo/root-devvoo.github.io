@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "DEVVOO's Tech Blog"
 title_separator          : "&#124;"
-subtitle                 : "root-devvoo : The Engineer who growing up" # site tagline that appears below site title in masthead
+subtitle                 : "root-devvoo : The DevOps Engineer who growing up" # site tagline that appears below site title in masthead
 name                     : "Victor Jung"
-description              : "root-devvoo : 성장하는 엔지니어"
+description              : "root-devvoo : 성장하는 DevOps 엔지니어"
 url                      : "https://root-devvoo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "root-devvoo/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "성장하는 개발자 DEVVOO" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "성장하는 DevOps 엔지니어 DEVVOO" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
@@ -135,7 +135,7 @@ author:
       # url: "https://instagram.com/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/woocheol-jung-959915220/"  
+      url: "https://www.linkedin.com/in/devvoo/"  
 
 # Site Footer
 footer:
@@ -160,7 +160,7 @@ footer:
       # url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/woocheol-jung-959915220/"    
+      url: "https://www.linkedin.com/in/devvoo/"    
 
 
 # Reading Files
