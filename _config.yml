@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "DEVVOO's Tech Blog"
 title_separator          : "&#124;"
-subtitle                 : "root-devvoo : The Developer who growing up" # site tagline that appears below site title in masthead
+subtitle                 : "root-devvoo : The Engineer who growing up" # site tagline that appears below site title in masthead
 name                     : "Victor Jung"
-description              : "root-devvoo : 성장하는 개발자"
+description              : "root-devvoo : 성장하는 엔지니어"
 url                      : "https://root-devvoo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "root-devvoo/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
