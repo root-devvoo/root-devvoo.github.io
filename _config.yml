@@ -110,7 +110,7 @@ analytics:
 # Site Author
 author:
   name             : "Victor Jung"
-  avatar           : "/assets/images/victor_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
+  avatar           : "/assets/images/victor_pycon.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
   bio              : "루트 노드를 향하여~<br>Towards the root node!"
   location         : "Seoul, Korea"
   Gmail            : "root.devvoo@gmail.com"
