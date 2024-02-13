@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DEVVOO's Tech Blog"
+title                    : "Devvoo's Tech Blog"
 title_separator          : "&#124;"
 subtitle                 : "root-devvoo : The DevOps Engineer who growing up" # site tagline that appears below site title in masthead
-name                     : "Victor Jung"
+name                     : "Devvoo"
 description              : "root-devvoo : 성장하는 DevOps 엔지니어"
 url                      : "https://root-devvoo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "root-devvoo/blog-comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "성장하는 DevOps 엔지니어 DEVVOO" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "성장하는 DevOps 엔지니어 Devvoo" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 
@@ -91,7 +91,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/victor_mimoji.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/devvoo_mimoji.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -109,8 +109,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Victor Jung"
-  avatar           : "/assets/images/victor_pycon.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
+  name             : "Devvoo"
+  avatar           : "/assets/images/devvoo_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
   bio              : "루트 노드를 향하여~<br>Towards the root node!"
   location         : "Seoul, Korea"
   Gmail            : "root.devvoo@gmail.com"
