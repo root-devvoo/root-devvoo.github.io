@@ -12,22 +12,15 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Backend</span>
+        <span class="nav__sub-title">Infra</span>
         <ul>
             {% for category in site.categories %}
-                    {% if category[0] == "Java" %}
-                        <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
-                    {% endif %}
-            {% endfor %}    
+                {% if category[0] == "DevOps" %}
+                    <li><a href="/categories/devops" class="">DevOps ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
         </ul>
-         <ul>
-            {% for category in site.categories %}
-                    {% if category[0] == "Python" %}
-                        <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
-                    {% endif %}
-            {% endfor %}    
-        </ul>
-        
+
         <span class="nav__sub-title">Coding Test</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -82,6 +75,22 @@
                         <li><a href="/categories/eip" class="">정보처리기사(실기) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Backend</span>
+            <ul>
+                {% for category in site.categories %}
+                        {% if category[0] == "Java" %}
+                            <li><a href="/categories/java" class="">Java ({{category[1].size}})</a></li>
+                        {% endif %}
+                {% endfor %}    
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                        {% if category[0] == "Python" %}
+                            <li><a href="/categories/python" class="">Python ({{category[1].size}})</a></li>
+                        {% endif %}
+                {% endfor %}    
             </ul>
 
         <span class="nav__sub-title">DBMS</span>
