@@ -117,7 +117,7 @@ analytics:
 author:
   name             : "Devvoo"
   avatar           : "/assets/images/devvoo_mimoji.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg" # 프로필 이미지
-  bio              : "루트 노드를 향하여~<br>Towards the root node!"
+  bio              : "앞으로 포스팅은 velog에...<br>https://velog.io/@root-devvoo/posts"
   location         : "Seoul, Korea"
   Gmail            : "root.devvoo@gmail.com"
   links:
